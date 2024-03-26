@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"] [{
+    "src": "/(.*)", 
+    "methods": ["GET", "POST", "PUT", "PATCH",  "DELETE", "OPTIONS"],
+    "headers": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+  ]
+
+}
